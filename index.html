@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deepika | Full Stack Developer & AI Enthusiast</title>
+  <meta name="description" content="Portfolio of Deepika, a Computer Science student, Full Stack Developer, and AI Enthusiast. Exploring web technologies, Machine Learning, and interactive design.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Background Ambient Glows -->
+  <div class="glow-bg glow-bg-1"></div>
+  <div class="glow-bg glow-bg-2"></div>
+  <div class="glow-bg glow-bg-3"></div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span>&lt;</span>Deepika<span>/&gt;</span>
+      </a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="nav-links">
+        <a href="#hero" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Contact CTA Button -->
+      <a href="#contact" class="btn-nav">Let's Talk</a>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle Navigation Menu" id="mobileMenuBtn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon"><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="6" x2="20" y2="6"></line><line x1="4" y1="18" x2="20" y2="18"></line></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Dropdown Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav-links">
+      <a href="#hero" class="mobile-nav-link">Home</a>
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#skills" class="mobile-nav-link">Skills</a>
+      <a href="#projects" class="mobile-nav-link">Projects</a>
+      <a href="#contact" class="mobile-nav-link">Contact</a>
+      <a href="#contact" class="btn-mobile-nav">Let's Talk</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section scroll-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge">
+            <span class="badge-dot"></span> Available for Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Deepika</span>
+          </h1>
+          <p class="hero-subtitle">Full Stack Developer &amp; AI Enthusiast</p>
+          <p class="hero-description">
+            Building elegant, scalable web applications and exploring the frontiers of Artificial Intelligence and Machine Learning.
+          </p>
+          
+          <div class="hero-actions">
+            <a href="#projects" class="btn-primary">View My Work</a>
+            <a href="mailto:your_email@example.com" class="btn-secondary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              your_email@example.com
+            </a>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="mailto:your_email@example.com" class="social-icon" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-card">
+            <div class="visual-header">
+              <div class="visual-dot dot-red"></div>
+              <div class="visual-dot dot-yellow"></div>
+              <div class="visual-dot dot-green"></div>
+              <div class="visual-title">deepika.json</div>
+            </div>
+            <pre class="visual-code"><code>{
+  <span class="code-key">"name"</span>: <span class="code-val">"Deepika"</span>,
+  <span class="code-key">"role"</span>: <span class="code-val">"Full Stack Dev"</span>,
+  <span class="code-key">"interests"</span>: [
+    <span class="code-val">"AI"</span>,
+    <span class="code-val">"Machine Learning"</span>,
+    <span class="code-val">"Web Tech"</span>
+  ],
+  <span class="code-key">"status"</span>: <span class="code-val">"Always Learning"</span>
+}</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down-container">
+        <a href="#about" class="scroll-down" aria-label="Scroll Down">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section scroll-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">01. Discovery</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text-content">
+            <p class="about-paragraph">
+              Hello! I'm Deepika, a passionate <strong>Computer Science student</strong> dedicated to crafting high-performance, visually engaging, and accessible web solutions. I sit at the intersection of robust backend architectures and smooth user experiences, powered by modern tech stacks.
+            </p>
+            <p class="about-paragraph">
+              My current academic and project-based focus is in <strong>Full Stack Development, Artificial Intelligence, and Machine Learning</strong>. I love solving real-world challenges through code—whether that's automating a repetitive campus task or experimenting with neural network concepts.
+            </p>
+            <p class="about-paragraph">
+              I thrive in collaborative environments and am always seeking to push the boundaries of what's possible with clean, scalable code.
+            </p>
+            
+            <div class="interests-tags">
+              <span class="tag">#WebDev</span>
+              <span class="tag">#AIEnthusiast</span>
+              <span class="tag">#MLNewbie</span>
+              <span class="tag">#ProblemSolver</span>
+              <span class="tag">#CSStudent</span>
+            </div>
+          </div>
+
+          <div class="about-cards-container">
+            <div class="about-info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"/></svg>
+              </div>
+              <h3 class="info-card-title">Education</h3>
+              <p class="info-card-desc">B.S. in Computer Science</p>
+              <p class="info-card-sub">Focusing on Algorithms, Systems &amp; Data Science</p>
+            </div>
+
+            <div class="about-info-card">
+              <div class="info-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+              </div>
+              <h3 class="info-card-title">Interests</h3>
+              <p class="info-card-desc">AI &amp; Full-Stack Integration</p>
+              <p class="info-card-sub">Creating intelligent applications that solve student life issues.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section scroll-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">02. Toolkit</span>
+          <h2 class="section-title">My Technical Skills</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- HTML -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-html">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l8.5 2.5-1.5 14.5-7 3-7-3-1.5-14.5z"/>
+                <path d="M12 6v12M15.5 8H8.5M15.5 12.5H8.5M14 15.5H8.5"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">HTML</h3>
+            <p class="skill-level">Semantic Markup &amp; Accessibility</p>
+          </div>
+
+          <!-- CSS -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-css">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l8.5 2.5-1.5 14.5-7 3-7-3-1.5-14.5z"/>
+                <path d="M12 6v12M15.5 8H8.5M16 11.5H8.5M15.5 15H8.5"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">CSS</h3>
+            <p class="skill-level">Flexbox, Grid &amp; Animations</p>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-js">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 3h18v18H3z"/>
+                <path d="M15 15.5c0 1.38-1.12 2.5-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5M10.5 9h2"/>
+                <path d="M17 9v9"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">JavaScript</h3>
+            <p class="skill-level">ES6+, DOM &amp; Async Programming</p>
+          </div>
+
+          <!-- Python -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-python">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2H9a5 5 0 0 0-5 5v3a5 5 0 0 0 5 5h3a1 1 0 0 1 1 1v2a5 5 0 0 0 5 5h3a5 5 0 0 0 5-5v-3a5 5 0 0 0-5-5h-3a1 1 0 0 1-1-1V7a5 5 0 0 0-5-5z"/>
+                <circle cx="8" cy="6" r="1" fill="currentColor"/>
+                <circle cx="16" cy="18" r="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">Python</h3>
+            <p class="skill-level">AI, Machine Learning &amp; Scripting</p>
+          </div>
+
+          <!-- React -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-react">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(30 12 12)"/>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(90 12 12)"/>
+                <ellipse cx="12" cy="12" rx="10" ry="4" transform="rotate(150 12 12)"/>
+                <circle cx="12" cy="12" r="1.5"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">React</h3>
+            <p class="skill-level">SPA, Component State &amp; Hooks</p>
+          </div>
+
+          <!-- SQL -->
+          <div class="skill-card">
+            <div class="skill-icon-box skill-sql">
+              <svg class="skill-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <ellipse cx="12" cy="5" rx="9" ry="3"/>
+                <path d="M3 5v6c0 1.66 4 3 9 3s9-1.34 9-3V5"/>
+                <path d="M3 11v6c0 1.66 4 3 9 3s9-1.34 9-3v-6"/>
+              </svg>
+            </div>
+            <h3 class="skill-name">SQL</h3>
+            <p class="skill-level">Relational Databases &amp; Queries</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section scroll-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">03. Creations</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="projects-container">
+          <!-- Featured Project 1 Card -->
+          <div class="project-card">
+            <div class="project-info">
+              <div class="project-badge">Featured Web Application</div>
+              <h3 class="project-title">Student Attendance &amp; Bunk Planner</h3>
+              <p class="project-description">
+                A highly useful tool for university students to track and plan their class attendance. Calculate your current percentage, check if you have any safe bunks remaining, or calculate exactly how many classes you must attend consecutively to recover your attendance to the required criteria.
+              </p>
+              
+              <div class="project-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript (ES6)</span>
+                <span>Responsive Design</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/lakshmideepika7823-dev/attendance-bunk-planner" class="btn-primary-sm" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+                  GitHub Repository
+                </a>
+                <a href="https://attendance-bunk-planner-one.vercel.app/" class="btn-secondary-sm" target="_blank" rel="noopener noreferrer">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+            <!-- Interactive Widget Live Preview -->
+            <div class="project-preview">
+              <div class="widget-container">
+                <div class="widget-header">
+                  <span class="widget-dot w-red"></span>
+                  <span class="widget-dot w-yellow"></span>
+                  <span class="widget-dot w-green"></span>
+                  <span class="widget-title">Planner Widget (Try It!)</span>
+                </div>
+                
+                <div class="widget-body">
+                  <div class="widget-input-group">
+                    <label for="presentClasses">Classes Attended</label>
+                    <input type="number" id="presentClasses" min="0" value="15" placeholder="e.g. 15">
+                  </div>
+
+                  <div class="widget-input-group">
+                    <label for="totalClasses">Total Classes Conducted</label>
+                    <input type="number" id="totalClasses" min="1" value="20" placeholder="e.g. 20">
+                  </div>
+
+                  <div class="widget-input-group">
+                    <label for="reqPercent">Required Attendance %</label>
+                    <input type="number" id="reqPercent" min="1" max="100" value="75" placeholder="e.g. 75">
+                  </div>
+
+                  <button type="button" id="calcBtn" class="btn-widget-calc">Calculate Status</button>
+
+                  <div class="widget-result" id="widgetResult">
+                    <div class="result-percent-box">
+                      <span class="result-label">Current Attendance</span>
+                      <span class="result-val" id="resPercent">75.0%</span>
+                    </div>
+                    <div class="result-divider"></div>
+                    <div class="result-details">
+                      <p id="resStatus" class="status-safe">Status: Safe</p>
+                      <p id="resAdvice" class="advice-text">You can bunk 0 more classes to maintain 75%.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section scroll-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">04. Connection</span>
+          <h2 class="section-title">Get In Touch</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info-panel">
+            <h3 class="contact-info-title">Let's discuss a project or opportunity!</h3>
+            <p class="contact-info-subtitle">
+              I am open to internship opportunities, freelance web projects, or collaborative work in Full Stack and AI/ML. Feel free to shoot me an email or use the form.
+            </p>
+
+            <div class="contact-methods">
+              <div class="contact-method-card">
+                <div class="contact-method-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div>
+                  <h4>Email Me</h4>
+                  <a href="mailto:your_email@example.com">your_email@example.com</a>
+                </div>
+              </div>
+
+              <div class="contact-method-card">
+                <div class="contact-method-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <h4>Location</h4>
+                  <p>Open to Remote &amp; Hybrid roles</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form-panel">
+            <form id="portfolioContactForm" class="contact-form">
+              <div class="form-group">
+                <label for="contactName">Name</label>
+                <input type="text" id="contactName" name="name" required placeholder="John Doe">
+              </div>
+
+              <div class="form-group">
+                <label for="contactEmail">Email</label>
+                <input type="email" id="contactEmail" name="email" required placeholder="john@example.com">
+              </div>
+
+              <div class="form-group">
+                <label for="contactMessage">Message</label>
+                <textarea id="contactMessage" name="message" rows="5" required placeholder="Hi Deepika, I'd like to collaborate on..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-submit" id="formSubmitBtn">
+                <span>Send Message</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+              
+              <!-- Form Status Notifications -->
+              <div class="form-status hidden" id="formStatus"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-bottom">
+    <div class="container footer-container">
+      <p class="copyright">&copy; <span id="currentYear">2026</span> Deepika. Designed and built with love.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Script Files -->
+  <script src="script.js"></script>
+</body>
+</html>
